@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ken/Code/LetMeSee/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">LetMeSee</string>
+    <string name="client_name">Welcome!</string>
+    <string name="comm_btn">Communication</string>
+    <string name="contract_btn">Contract</string>
+    <string name="logout_btn">Log Out</string>
+    <string name="photo_btn">Photographs</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+</resources>

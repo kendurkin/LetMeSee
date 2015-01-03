@@ -1,0 +1,2 @@
+/home/ken/Code/LetMeSee/app/build/intermediates/classes/debug
+/home/ken/Code/LetMeSee/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-50eafbe4b173142809a105cf9af177d58427a34c.jar

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.beefnky"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application 
+        android:icon="@drawable/icon" 
+        android:label="@string/app_name">
+        <activity android:name="com.android.letmesee.DashboardActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Successful Login -->
+        <activity 
+            android:label="Login"
+            android:name="com.android.letmesee.LoginActivity"></activity>
+        
+        <!--  Entry for RegisterActivity.class -->
+        <activity android:name="com.android.letmesee.RegisterActivity"
+        		  android:label="Register New Account"></activity>
+        
+        <!--  Entry for ContractActivity.class -->
+		<activity android:name="imageFromUrl.ContractActivity"
+				  android:label="Contract"></activity>
+		        
+                <!--  Entry for PhotographsActivity.class -->
+        <activity android:name="photoLib.PhotoMenuActivity"
+        		  android:label="Photos"></activity>
+        
+                <!--  Entry for FullImageActivity.class -->
+        <activity android:name="photoLib.FullImageActivity"
+        		  android:label="Photo"></activity>
+        
+    </application>
+    
+    <!-- Allow to connect with internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+</manifest>

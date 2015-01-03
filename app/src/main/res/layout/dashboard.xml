@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#3b3b3b" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        
+        <!--  Welcome Screen -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="@string/client_name"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+        <!--  ContractBtn -->
+        <Button
+            android:id="@+id/contractBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:text="@string/contract_btn"
+            android:textStyle="bold" />
+        
+        <!-- PhotographBtn -->
+        <Button
+            android:id="@+id/photoBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:text="@string/photo_btn"
+            android:textStyle="bold" />
+         
+        <!--  CommunicationBtn -->
+        <Button
+            android:id="@+id/commBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:text="@string/comm_btn"
+            android:textStyle="bold" />
+
+        <!-- LogoutBtn -->
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:text="@string/logout_btn"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+</ScrollView>

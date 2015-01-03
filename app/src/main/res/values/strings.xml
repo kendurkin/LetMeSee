@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_name">Welcome!</string>
+    <string name="contract_btn">Contract</string>
+    <string name="photo_btn">Photographs</string>
+    <string name="comm_btn">Communication</string>
+    <string name="logout_btn">Log Out</string>
+    <string name="app_name">LetMeSee</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    
+</resources>
